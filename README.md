@@ -2,12 +2,12 @@ Andrea Fernandes
 
 Use:
 -----------------------------------------------------------------------
-Calibrate the first 7 ADC ports on the ESP 32 (sparkfun chip).
-The pins that the code currently reads voltages from are 36, 37, 38, 39, 32, 33, 34
-This code is ment to interface with 7 capacitive sensors. The sensors used are the single tact sensors
-    https://www.singletact.com/micro-force-sensor/calibrated-sensors/15mm-450-newton/
-There is no attenuation set for the ports. Therefore, the full scale voltage read by the MC is 0-1.1V
-    This was sufficient for our project since the sensors voltage output for the force of interest is 0.5V to 1V
+- Calibrate the first 7 ADC ports on the ESP 32 (sparkfun chip).
+- The pins that the code currently reads voltages from are 36, 37, 38, 39, 32, 33, 34
+- This code is ment to interface with 7 capacitive sensors. The sensors used are the single tact sensors
+    - https://www.singletact.com/micro-force-sensor/calibrated-sensors/15mm-450-newton/
+- There is no attenuation set for the ports. Therefore, the full scale voltage read by the MC is 0-1.1V
+    - This was sufficient for our project since the sensors voltage output for the force of interest is 0.5V to 1V
 
 
 
